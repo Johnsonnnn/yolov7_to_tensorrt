@@ -44,6 +44,15 @@ labels_file:   "../configs/coco.names"
 ### 2. Put `yolov7.pt` or `yolov7.onnx` to `yolov7_to_tensorrt/weights`
 * Make sure the model name is `yolov7.pt` or `yolov7.onnx`
 
+* Structure
+```bash
+yolov7_to_tensorrt
+|----weights
+|----yolov7_deepsort_tensorrt
+|----yolov7_onnx_to_trt
+|----pt_to_onnx
+```
+
 ## Usage
 
 ### `.pt` to `.trt`
