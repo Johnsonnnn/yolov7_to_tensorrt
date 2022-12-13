@@ -9,10 +9,9 @@
 
 ### 1. Install Dependency
 ```bash
-sudo apt -y install libyaml-cpp-dev
-install_python_requirements.sh
+install_python_dependency.sh
+install_ubuntu_dependency.sh
 ```
-
 
 ## Prepare
 ### 1. Modify
