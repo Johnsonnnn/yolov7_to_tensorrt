@@ -1,5 +1,10 @@
 # yolov7_to_tensorrt
 
+## Download
+```bash
+git clone https://github.com/Johnsonnnn/yolov7_to_tensorrt.git
+```
+
 ## Requirement
 
 * **TensorRT**
@@ -9,8 +14,9 @@
 
 ### 1. Install Dependency
 ```bash
-install_python_dependency.sh
-install_ubuntu_dependency.sh
+cd yolov7_to_tensorrt
+bash install_python_dependency.sh
+bash install_ubuntu_dependency.sh
 ```
 
 ## Prepare
@@ -39,9 +45,6 @@ labels_file:   "../configs/coco.names"
 * Make sure the model name is `yolov7.pt` or `yolov7.onnx`
 
 ## Usage
-```bash
-git clone https://github.com/Johnsonnnn/yolov7_to_tensorrt.git
-```
 
 ### `.pt` to `.trt`
 ```bash
