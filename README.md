@@ -48,6 +48,7 @@ labels_file:   "../configs/coco.names"
 ```bash
 yolov7_to_tensorrt
 |----weights
+     |----yolov7.pt or yolov7.onnx
 |----yolov7_deepsort_tensorrt
 |----yolov7_onnx_to_trt
 |----pt_to_onnx
