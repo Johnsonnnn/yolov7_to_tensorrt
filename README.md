@@ -12,7 +12,7 @@ git clone https://github.com/Johnsonnnn/yolov7_to_tensorrt.git
 * **CUDNN**
 * **OpenCV**
 
-### 1. Install Dependency
+### 1. Install Dependencies
 ```bash
 cd yolov7_to_tensorrt
 bash install_python_dependency.sh
